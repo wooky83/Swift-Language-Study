@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='ArrayFP'/>
+        <page name='FPEx1'/>
+        <page name='FPEx2'/>
+        <page name='Currying'/>
+        <page name='Bind'/>
+        <page name='KeyPath'/>
+        <page name='ExpressPattern'/>
+        <page name='SwitchEx'/>
+        <page name='StringEx'/>
+        <page name='CollectionEx'/>
+    </pages>
+</playground>
