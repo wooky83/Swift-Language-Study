@@ -11,5 +11,6 @@
         <page name='SwitchEx'/>
         <page name='StringEx'/>
         <page name='CollectionEx'/>
+        <page name='OptionalTypeEx'/>
     </pages>
 </playground>
