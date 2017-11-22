@@ -12,5 +12,7 @@
         <page name='StringEx'/>
         <page name='CollectionEx'/>
         <page name='OptionalTypeEx'/>
+        <page name='ClassGetName'/>
+        <page name='ArrayHeadTail'/>
     </pages>
 </playground>
