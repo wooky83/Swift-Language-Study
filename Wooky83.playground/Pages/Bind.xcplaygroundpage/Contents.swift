@@ -17,6 +17,23 @@ func >>=<A, B>(a: A?, f: (A) -> B?) -> B?
     return bind(a, f: f)
 }
 
+
+func ab(x: String) -> String? {
+    return "success1"
+}
+
+func cd(x: String) -> String! {
+    return "success2"
+}
+
+
+if let value = "hi" >>= ab >>= cd {
+    print(value)
+}
+else {
+    print("fail")
+}
+
 func add(x: Int) -> (Int) -> Int {
     return {
         y in x + y
@@ -32,7 +49,7 @@ var f2: (String) -> (String?) = {
 }
 
 let f3: (String) -> (String?) = {
-    str in str.count > 15 ? str + " bind f3" : nil
+    str in !str.isEmpty ? str + " bind f3" : nil
 }
 
 let whyNot = "String" >>= f1 >>= f2 >>= f3 ?? ""
