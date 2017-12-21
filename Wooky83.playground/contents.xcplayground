@@ -14,5 +14,6 @@
         <page name='OptionalTypeEx'/>
         <page name='ClassGetName'/>
         <page name='ArrayHeadTail'/>
+        <page name='LazyCollection'/>
     </pages>
 </playground>
