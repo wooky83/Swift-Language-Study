@@ -35,9 +35,9 @@ class Test: P {
     
     func gg() {
         self.foo = "nike"
-        print(self.foo)
+        print(String(describing:self.foo))
         self.bar = 3
-        print(self.bar)
+        print(String(describing: self.bar))
     }
 }
 

@@ -2,7 +2,7 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='ArrayFP'/>
-        <page name='FPEx1'/>
+        <page name='MapFlatMapEx'/>
         <page name='FPEx2'/>
         <page name='Currying'/>
         <page name='Bind'/>
@@ -10,10 +10,18 @@
         <page name='ExpressPattern'/>
         <page name='SwitchEx'/>
         <page name='StringEx'/>
-        <page name='CollectionEx'/>
+        <page name='SafeCollection'/>
         <page name='OptionalTypeEx'/>
-        <page name='ClassGetName'/>
+        <page name='GetClassName'/>
         <page name='ArrayHeadTail'/>
         <page name='LazyCollection'/>
+        <page name='ProtocolExtension_setAssociatedObject'/>
+        <page name='TailRecursive'/>
+        <page name='EnumStringSwitch'/>
+        <page name='SwiftObjcDynamicObserve'/>
+        <page name='URLComponentsEx'/>
+        <page name='ExtensionFromProtocolEx'/>
+        <page name='HighOrderFunctionEx'/>
+        <page name='whetherStructClass'/>
     </pages>
 </playground>

@@ -23,7 +23,6 @@ print(mapedArr)
 
 print(flatmappedArr)
 
-
 let a1 = hi.map{$0} ?? 3
 print(a1)
 

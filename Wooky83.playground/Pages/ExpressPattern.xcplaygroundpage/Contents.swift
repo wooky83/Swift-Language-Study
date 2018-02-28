@@ -1,6 +1,7 @@
-//: [Previous](@previous)
-
 import Foundation
+
+let ex1 = 1..<5 ~= 5
+let ex2 = 1...2 ~= 2
 
 func ~= (pattern: Int, value: String) -> Bool {
     return "\(pattern)" == value
@@ -20,15 +21,13 @@ print(exPattern1)
 let exPattern2 = 3 ~= "3"
 print(exPattern2)
 
-
-
 struct Solider {
     let hp: Int
     let x: Int
     let y: Int
 }
 
-func ~=(pattern: Int, value:Solider) -> Bool {
+func ~=(pattern: Int, value: Solider) -> Bool {
     print("xxxx")
     return pattern == value.hp
 }
@@ -36,9 +35,9 @@ func ~=(pattern: Int, value:Solider) -> Bool {
 let solider = Solider(hp: 99, x: 10, y: 10)
 switch solider {
 case 99:
-    print("correct")
+    print("99")
 case 100:
-    print("correct")
+    print("100")
 default:
     print("no correct")
 }
