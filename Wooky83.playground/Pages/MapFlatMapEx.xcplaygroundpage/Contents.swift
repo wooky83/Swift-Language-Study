@@ -25,12 +25,12 @@ let c1 : (Int) -> Int? = { n in
 
 let b1 = a1.map(c1)
 print(b1)
-let b2 = a1.flatMap(c1)
+let b2 = a1.compactMap(c1)
 print(b2)
 print("-------------------------------------------------")
 let list = [1, 2, 3, nil, 4, 5]
 print(list)
 let mapList = list.map{$0}
 print(mapList)
-let flatMapList = list.flatMap{$0}
+let flatMapList = list.compactMap{$0}
 print(flatMapList)

@@ -12,7 +12,7 @@ let enumDday = MarkerType.dday
 print(enumDday.rawValue)
 
 let pointType = MarkerType(rawValue: "point")
-print("type : \(pointType)")
+print("type : \(String(describing: pointType))")
 
 switch pointType {
 case .some(.dday):

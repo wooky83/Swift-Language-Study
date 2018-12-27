@@ -22,6 +22,6 @@
         <page name='URLComponentsEx'/>
         <page name='ExtensionFromProtocolEx'/>
         <page name='HighOrderFunctionEx'/>
-        <page name='whetherStructClass'/>
+        <page name='ifStructOrClass'/>
     </pages>
 </playground>
