@@ -26,6 +26,7 @@ xcuserdata/
 *.xcscmblueprint
 
 ### Xcode Patch ###
+*.xcuserdata
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
