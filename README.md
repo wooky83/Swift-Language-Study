@@ -24,3 +24,5 @@ Swift STL Study
 21. High order Function Example
 22. if struct or class
 21. DynamicMemberLookup Example
+22. KeyPath With Protocol
+> KeyPath와 Associatedtype, Protocol을 활용
