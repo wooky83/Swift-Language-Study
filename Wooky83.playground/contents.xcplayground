@@ -25,5 +25,6 @@
         <page name='ifStructOrClass'/>
         <page name='DynamicMemberLookupEx'/>
         <page name='KeyPathWithProtocol'/>
+        <page name='WhatIsMirror'/>
     </pages>
 </playground>
