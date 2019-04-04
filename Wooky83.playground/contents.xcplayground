@@ -30,5 +30,6 @@
         <page name='Swift4_2_MiscellaneousChanges'/>
         <page name='Swift4_2_DynamicMemberLookup'/>
         <page name='Stack'/>
+        <page name='Queue'/>
     </pages>
 </playground>

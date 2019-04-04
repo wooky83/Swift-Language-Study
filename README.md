@@ -25,4 +25,16 @@ Swift STL Study
 22. if struct or class
 21. DynamicMemberLookup Example
 22. KeyPath With Protocol
-> KeyPath와 Associatedtype, Protocol을 활용
+- KeyPath와 Associatedtype, Protocol을 활용
+23. Mirror Type(reflection)
+24. Swift4.2
+- NewSequence Methods
+25. Swift4.2
+- Miscellaneous Changes
+26. Swift4.2
+- DynamicMemberLookup
+27. DataStructure
+ - Stack
+28. DataStructure
+- ArrayQueue dequeue => O(n)
+- DoubleStackQueue dequeue => O(1)
