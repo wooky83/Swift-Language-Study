@@ -9,9 +9,17 @@ protocol Queue {
 
 struct QueueArray<T>: Queue {
     private var array: [T] = []
+    
+    init() { }
+    
+    init(_ elements: [T]) {
+        array = elements
+    }
+    
     var isEmpty: Bool {
         return array.isEmpty
     }
+    
     var peek: T? {
         return array.first
     }
@@ -26,12 +34,26 @@ struct QueueArray<T>: Queue {
     }
 }
 
+extension QueueArray: ExpressibleByArrayLiteral {
+    init(arrayLiteral elements: Element...) {
+        array = elements
+    }
+}
+
 struct QueueStack<T>: Queue {
     private var dequeueStack: [T] = []
     private var enqueueStack: [T] = []
+    
+    init() { }
+    
+    init(_ elements: [T]) {
+        enqueueStack = elements
+    }
+    
     var isEmpty: Bool {
         return dequeueStack.isEmpty && enqueueStack.isEmpty
     }
+    
     var peek: T? {
         return !dequeueStack.isEmpty ? dequeueStack.last : enqueueStack.first
     }
@@ -50,3 +72,8 @@ struct QueueStack<T>: Queue {
     }
 }
 
+extension QueueStack: ExpressibleByArrayLiteral {
+    init(arrayLiteral elements: Element...) {
+        enqueueStack = elements
+    }
+}
