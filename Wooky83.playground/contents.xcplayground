@@ -32,5 +32,6 @@
         <page name='Stack'/>
         <page name='Queue'/>
         <page name='BinaryTree'/>
+        <page name='Heap'/>
     </pages>
 </playground>
