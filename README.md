@@ -1,5 +1,5 @@
 # SwiftPlayground
-Swift STL Study
+Swift Standard Library Study
 
 1. Functional Programming Array
 2. Functional Programming Map, FlatMap
