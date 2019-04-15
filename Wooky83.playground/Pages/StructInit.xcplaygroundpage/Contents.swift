@@ -2,7 +2,7 @@
 
 import Foundation
 
-//Default Init과 Custom Init을 같이 쓰려면 Extension으로
+//Default init과 Custom init을 같이 쓰려면 Extension으로
 
 struct Pet {
     let name: String
