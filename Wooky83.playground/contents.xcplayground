@@ -34,5 +34,6 @@
         <page name='BinaryTree'/>
         <page name='Heap'/>
         <page name='StructInit'/>
+        <page name='XCTestEx'/>
     </pages>
 </playground>
