@@ -39,5 +39,5 @@ Swift Standard Library Study
 - ArrayQueue dequeue => O(n)
 - DoubleStackQueue dequeue => O(1)
 29. BinaryTree
-30. Struct Init 
+30. Struct Init
 31. XCTestCase Example
