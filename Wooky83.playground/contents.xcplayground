@@ -35,5 +35,6 @@
         <page name='Heap'/>
         <page name='StructInit'/>
         <page name='XCTestEx'/>
+        <page name='EnhanceGenerics'/>
     </pages>
 </playground>

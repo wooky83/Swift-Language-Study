@@ -47,8 +47,18 @@ class ScoreTests: XCTestCase {
             scoreExpectation.fulfill()
         }
         
-        waitForExpectations(timeout: 1.0) { error in
-            print(error)
+//        waitForExpectations(timeout: 1.0) { error in
+//            print(error ?? "error da")
+//        }
+        
+        wait(for: [scoreExpectation], timeout: 2.0)
+    }
+    
+    func testMeasure() {
+        measure {
+            (0...100).forEach {
+             print("measure \($0)")
+            }
         }
     }
 }

@@ -41,3 +41,5 @@ Swift Standard Library Study
 29. BinaryTree
 30. Struct Init
 31. XCTestCase Example
+32. Enhance Generics
+- method, class, protocol
