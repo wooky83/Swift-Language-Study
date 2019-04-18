@@ -43,3 +43,7 @@ Swift Standard Library Study
 31. XCTestCase Example
 32. Enhance Generics
 - method, class, protocol
+33. Advanced Operators
+- Bitwise Operators
+- Overflow Operators
+- Option Sets

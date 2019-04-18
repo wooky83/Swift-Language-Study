@@ -36,5 +36,6 @@
         <page name='StructInit'/>
         <page name='XCTestEx'/>
         <page name='EnhanceGenerics'/>
+        <page name='AdvancedOperators'/>
     </pages>
 </playground>
