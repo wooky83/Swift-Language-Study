@@ -24,14 +24,28 @@ prefix func √(lhs: Double) -> Double {
 
 var root = √9
 
+postfix operator ^^
+postfix func ^^(lhs: String?) -> Bool {
+    guard let str = lhs else { return false }
+    return !str.isEmpty
+}
+
+let str: String? = "good"
+str^^
+
 extension CGPoint {
     static func + (lhs: CGPoint, rhs: CGPoint) -> CGPoint {
         return CGPoint(x: lhs.x + rhs.x, y: lhs.y + rhs.y)
+    }
+    
+    static func * (lhs: CGPoint, rhs: CGFloat) -> CGPoint {
+        return CGPoint(x: lhs.x * rhs, y: lhs.y * rhs)
     }
 }
 
 var point1 = CGPoint(x: 1.0, y: 1.0)
 var result = point1 + point1
+var pResult = point1 * 5
 
 struct CarOptions: OptionSet {
     let rawValue: Int
