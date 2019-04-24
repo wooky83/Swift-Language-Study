@@ -37,5 +37,6 @@
         <page name='XCTestEx'/>
         <page name='EnhanceGenerics'/>
         <page name='AdvancedOperators'/>
+        <page name='Concurrency'/>
     </pages>
 </playground>
