@@ -38,5 +38,6 @@
         <page name='EnhanceGenerics'/>
         <page name='AdvancedOperators'/>
         <page name='Concurrency'/>
+        <page name='ValuesVSReferences'/>
     </pages>
 </playground>
