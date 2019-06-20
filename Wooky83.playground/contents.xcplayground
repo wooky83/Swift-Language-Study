@@ -39,5 +39,6 @@
         <page name='AdvancedOperators'/>
         <page name='Concurrency'/>
         <page name='ValuesVSReferences'/>
+        <page name='ErrorHandling'/>
     </pages>
 </playground>
