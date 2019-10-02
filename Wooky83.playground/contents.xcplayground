@@ -41,5 +41,7 @@
         <page name='ValuesVSReferences'/>
         <page name='ErrorHandling'/>
         <page name='Swift5_0_String'/>
+        <page name='Swift5_0_Types'/>
+        <page name='Swift5_0_SyntacticalSugar'/>
     </pages>
 </playground>
