@@ -40,5 +40,6 @@
         <page name='Concurrency'/>
         <page name='ValuesVSReferences'/>
         <page name='ErrorHandling'/>
+        <page name='Swift5_0_String'/>
     </pages>
 </playground>
