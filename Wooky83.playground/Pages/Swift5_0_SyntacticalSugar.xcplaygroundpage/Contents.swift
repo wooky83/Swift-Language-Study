@@ -42,3 +42,28 @@ let averages = [
 
 let playersWithAverages = averages.compactMapValues{ Double($0) }
 playersWithAverages
+
+
+@dynamicCallable
+class DynamicFeatures {
+  // 2
+  func dynamicallyCall(withArguments params: [Int]) -> Int? {
+    guard !params.isEmpty else {
+      return nil
+    }
+    return params.reduce(0, +)
+  }
+  
+  func dynamicallyCall(withKeywordArguments params: KeyValuePairs<String, Int>) -> Int? {
+    guard !params.isEmpty else {
+      return nil
+    }
+    return params.reduce(0) { $1.key.isEmpty ? $0 : $0 + $1.value }
+  }
+}
+
+// 3
+let features = DynamicFeatures()
+features() // nil
+features(3, 4, 5) // 12
+features(first: 3, 4, second: 5) // 8
