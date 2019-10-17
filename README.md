@@ -4,9 +4,9 @@ Swift Standard Library Study
 1. Functional Programming 
 - Array
 2. Functional Programming 
-- (1) Map, FlatMap
+- Map, FlatMap(1/2)
 3. Functional Programming
-- (2) Map, FlatMap
+- Map, FlatMap(2/2)
 4. Currying
 5. Bind
 6. KeyPath
