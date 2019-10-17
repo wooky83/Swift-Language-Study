@@ -1,4 +1,4 @@
-# SwiftPlayground
+# Version Swift5.1
 Swift Standard Library Study
 
 1. Functional Programming Array
