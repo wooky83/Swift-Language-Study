@@ -43,5 +43,6 @@
         <page name='Swift5_0_String'/>
         <page name='Swift5_0_Types'/>
         <page name='Swift5_0_SyntacticalSugar'/>
+        <page name='Swift5_1_Miscellaneous'/>
     </pages>
 </playground>

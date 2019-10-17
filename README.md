@@ -49,3 +49,7 @@ Swift Standard Library Study
 - Option Sets
 34. Concurrency, Explore More Complex Concurrent Code
 35. Values and References
+36. ErrorHandling
+37. Swift5.0_String
+38. Swift5.0_Types
+39. Swift5.0_Syntactical Sugar
