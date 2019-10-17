@@ -33,23 +33,25 @@ Swift Standard Library Study
 - Miscellaneous Changes
 26. Swift4.2
 - DynamicMemberLookup
-27. DataStructure
- - Stack
+27. Swift4.2
+- Random API
 28. DataStructure
+ - Stack
+29. DataStructure
 - ArrayQueue dequeue => O(n)
 - DoubleStackQueue dequeue => O(1)
-29. BinaryTree
-30. Struct Init
-31. XCTestCase Example
-32. Enhance Generics
+30. BinaryTree
+31. Struct Init
+32. XCTestCase Example
+33. Enhance Generics
 - method, class, protocol
-33. Advanced Operators
+34. Advanced Operators
 - Bitwise Operators
 - Overflow Operators
 - Option Sets
-34. Concurrency, Explore More Complex Concurrent Code
-35. Values and References
-36. ErrorHandling
-37. Swift5.0_String
-38. Swift5.0_Types
-39. Swift5.0_Syntactical Sugar
+35. Concurrency, Explore More Complex Concurrent Code
+36. Values and References
+37. ErrorHandling
+38. Swift5.0_String
+39. Swift5.0_Types
+40. Swift5.0_Syntactical Sugar

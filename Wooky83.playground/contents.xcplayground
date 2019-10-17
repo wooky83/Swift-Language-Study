@@ -29,6 +29,7 @@
         <page name='Swift4_2_NewSequenceMethods'/>
         <page name='Swift4_2_MiscellaneousChanges'/>
         <page name='Swift4_2_DynamicMemberLookup'/>
+        <page name='Swift4_2_Random'/>
         <page name='Stack'/>
         <page name='Queue'/>
         <page name='BinaryTree'/>
