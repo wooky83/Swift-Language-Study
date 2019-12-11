@@ -2,8 +2,7 @@
 
 import Foundation
 
-func bind<A, B>(_ a: A?, f: (A) -> B?) -> B?
-{
+func bind<A, B>(_ a: A?, f: (A) -> B?) -> B? {
     if let x = a {
         return f(x)
     } else {
@@ -12,8 +11,7 @@ func bind<A, B>(_ a: A?, f: (A) -> B?) -> B?
 }
 
 infix operator >>=: MultiplicationPrecedence
-func >>=<A, B>(a: A?, f: (A) -> B?) -> B?
-{
+func >>=<A, B>(a: A?, f: (A) -> B?) -> B? {
     return bind(a, f: f)
 }
 

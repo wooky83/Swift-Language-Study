@@ -2,7 +2,7 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='ArrayFP'/>
-        <page name='MapFlatMapEx'/>
+        <page name='MapVSFlatMap'/>
         <page name='FPEx2'/>
         <page name='Currying'/>
         <page name='Bind'/>
@@ -46,5 +46,6 @@
         <page name='Swift5_0_SyntacticalSugar'/>
         <page name='Swift5_1_Miscellaneous'/>
         <page name='Swif5_1_OpaqueReturnTypes'/>
+        <page name='CompactMapVSFlatMap'/>
     </pages>
 </playground>

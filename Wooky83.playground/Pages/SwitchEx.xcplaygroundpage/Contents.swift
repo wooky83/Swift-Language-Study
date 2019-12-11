@@ -51,7 +51,7 @@ func test() {
         print("NO")
         return
     }
-    print("YES")
+    print("YES \(ms)")
 }
 
 test()
