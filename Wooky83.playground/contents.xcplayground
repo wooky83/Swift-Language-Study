@@ -45,7 +45,9 @@
         <page name='Swift5_0_Types'/>
         <page name='Swift5_0_SyntacticalSugar'/>
         <page name='Swift5_1_Miscellaneous'/>
-        <page name='Swif5_1_OpaqueReturnTypes'/>
+        <page name='Swift5_1_OpaqueReturnTypes'/>
         <page name='CompactMapVSFlatMap'/>
+        <page name='Swift5_1_PropertyWrappers'/>
+        <page name='AutoClosure'/>
     </pages>
 </playground>
