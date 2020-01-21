@@ -58,3 +58,6 @@ Swift Standard Library Study
 38. Swift5.0_String
 39. Swift5.0_Types
 40. Swift5.0_Syntactical Sugar
+41. CompactMapVSFlatMap
+42. Swift5_1_PropertyWrappers
+43. AutoClosure
