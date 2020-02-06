@@ -49,5 +49,6 @@
         <page name='CompactMapVSFlatMap'/>
         <page name='Swift5_1_PropertyWrappers'/>
         <page name='AutoClosure'/>
+        <page name='OptionSet'/>
     </pages>
 </playground>
