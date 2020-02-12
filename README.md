@@ -61,3 +61,5 @@ Swift Standard Library Study
 41. CompactMapVSFlatMap
 42. Swift5_1_PropertyWrappers
 43. AutoClosure
+44. Closure Capture Value
+45. PropertyWrappers With UserDefaults
