@@ -54,6 +54,10 @@ struct CSUserDefault<T> {
             UserDefaults.standard.synchronize()
         }
     }
+    
+    func capture() {
+        print("😀 \(self) hi!")
+    }
 }
 
 struct TT: Codable {
@@ -72,6 +76,9 @@ print(data.username)
 print(data.code?.name)
 data.username = "good"
 print(data.username)
+data.$username.capture()
+//data.code.capture()
+data.$code.capture()
 
 
 let code = TT(name: "kwon", age: 38)
