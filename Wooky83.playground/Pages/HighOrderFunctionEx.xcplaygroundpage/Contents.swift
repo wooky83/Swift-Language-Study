@@ -19,3 +19,16 @@ func parameterTypeLamda(a: (Int) -> Int) -> Int {
 let result = parameterTypeLamda { value -> Int in
     value + 5
 }
+
+////
+
+func short(number: Int) {
+    print("number : \(number)")
+}
+
+func shortFunc(value: (Int) -> Void) {
+    value(5)
+}
+
+shortFunc(value: short)
+

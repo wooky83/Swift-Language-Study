@@ -109,3 +109,22 @@ class Box<T> where T: Equatable {
 let bx = Box(bx: 5)
 bx.eq(from: 5)
 bx.eq(from: 3)
+
+//Swift 5.3
+class Zedd<T> {
+    func decode() where T: Decodable {
+        print("Decode able!!")
+    }
+}
+
+extension Zedd {
+    func encode() where T: Encodable {
+        print("Encode able")
+    }
+}
+
+let zeddStr = Zedd<String>()
+zeddStr.decode()
+
+let zeddNStr = Zedd<NSString>()
+//zeddNStr.decode() Error instance method 'decode()' requires that 'NSString' conform to 'Decodable'

@@ -14,7 +14,9 @@ let a = Foo<Int>()
 a.gg()
 
 struct Foz<T> {}
-extension Foz where T: Numeric {}
+extension Foz where T: Numeric {
+    
+}
 
 // 2
 protocol Bar {
@@ -33,7 +35,9 @@ a2.gg()
 
 
 // 3
-protocol Baz {}
+protocol Baz {
+    
+}
 extension Baz where Self: UIView {
     func gg() { print("Baz")}
 }

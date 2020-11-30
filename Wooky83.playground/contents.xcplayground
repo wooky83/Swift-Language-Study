@@ -53,5 +53,6 @@
         <page name='ClosureCapture'/>
         <page name='UserDefaultsPropertyWrappers'/>
         <page name='Swift5_2_KeyPathExpressionsAsFunctions'/>
+        <page name='Swift5_3_Enum_Comparable'/>
     </pages>
 </playground>
