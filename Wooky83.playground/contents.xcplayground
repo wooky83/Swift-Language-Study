@@ -55,5 +55,6 @@
         <page name='Swift5_2_KeyPathExpressionsAsFunctions'/>
         <page name='Swift5_3_Enum_Comparable'/>
         <page name='Swift5_3_MultiPatternCatchClauses'/>
+        <page name='DynamicMemberOrCallable'/>
     </pages>
 </playground>
