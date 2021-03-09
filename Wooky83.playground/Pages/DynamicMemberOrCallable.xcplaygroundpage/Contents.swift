@@ -10,8 +10,8 @@ struct PropertyDictionary<T> {
         property = dictionary
     }
     
-    subscript(dynamicMember string: String) -> T? {
-        guard let value = property[string] else { return nil }
+    subscript(dynamicMember key: String) -> T? {
+        guard let value = property[key] else { return nil }
         if T.self == String.self {
             return String(describing: value) as? T
         } else {
@@ -22,11 +22,27 @@ struct PropertyDictionary<T> {
 
 
 let dictionary: [String: Any] = ["a": 1, "b": "2", "c": false]
-let property = PropertyDictionary<String>(dictionary)
+let property = PropertyDictionary<Any>(dictionary)
 property.a
 property.b
 property.c
 property.d
+
+
+let dictionaryStr: [String: Any] = ["a": 1, "b": "2", "c": false]
+let propertyStr = PropertyDictionary<String>(dictionaryStr)
+propertyStr.a
+propertyStr.b
+propertyStr.c
+propertyStr.d
+
+
+let dictionaryInt: [String: Any] = ["a": 1, "b": "2", "c": false]
+let propertyInt = PropertyDictionary<Int>(dictionaryInt)
+propertyInt.a
+propertyInt.b
+propertyInt.c
+propertyInt.d
 
 
 @dynamicCallable
@@ -39,3 +55,4 @@ struct Callable {
 let c = Callable()
 print(c())
 print(c(1, 2))
+
