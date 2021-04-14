@@ -28,3 +28,8 @@ let voters = users.filter(\.canVote)
 print(voters)
 let bestFriends = users.compactMap(\.bestFriend)
 print(bestFriends)
+
+let name = otis[keyPath: \.name]
+print(name)
+
+let keyPathTypeCheck = \User.age
