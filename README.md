@@ -4,7 +4,7 @@ Swift Standard Library Study
 * Functional Programming 
  - Array
 * Functional Programming 
- * Map, FlatMap(1/2)
+ - Map, FlatMap(1/2)
 3. Functional Programming
 - Map, FlatMap(2/2)
 4. Currying
