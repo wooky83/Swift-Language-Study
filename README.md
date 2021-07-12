@@ -2,7 +2,7 @@
 Swift Standard Library Study
 
 * Functional Programming 
- * Array
+ - Array
 * Functional Programming 
  * Map, FlatMap(1/2)
 3. Functional Programming
