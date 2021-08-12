@@ -56,5 +56,6 @@
         <page name='Swift5_3_Enum_Comparable'/>
         <page name='Swift5_3_MultiPatternCatchClauses'/>
         <page name='DynamicMemberOrCallable'/>
+        <page name='SwizzleMethod'/>
     </pages>
 </playground>
