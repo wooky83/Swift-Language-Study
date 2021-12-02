@@ -56,3 +56,23 @@ let c = Callable()
 print(c())
 print(c(1, 2))
 
+@dynamicMemberLookup
+struct PersonWrapper<T> {
+    private let primate: T
+    
+    init(_ primate: T) {
+        self.primate = primate
+    }
+    
+    subscript<U>(dynamicMember keyPath: WritableKeyPath<T, U>) -> U {
+        return primate[keyPath: keyPath]
+    }
+}
+
+struct Person {
+    var name: String = "DH"
+    var age: Int = 100
+}
+
+let person = PersonWrapper(Person())
+print(person.name)
