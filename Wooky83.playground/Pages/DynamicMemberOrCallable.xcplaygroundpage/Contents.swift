@@ -50,11 +50,17 @@ struct Callable {
     func dynamicallyCall(withArguments args: [Int]) -> Int {
         return args.count
     }
+    
+    func dynamicallyCall(withKeywordArguments args: KeyValuePairs<String, Int>) -> Int {
+        args.forEach { print("withKeywordArguments \($0)") }
+        return 5
+    }
 }
 
 let c = Callable()
 print(c())
 print(c(1, 2))
+print(c(a: 1, b: 2))
 
 @dynamicMemberLookup
 struct PersonWrapper<T> {
